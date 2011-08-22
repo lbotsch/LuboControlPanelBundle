@@ -10,7 +10,7 @@ class LuboControlPanelBundle extends Bundle
 {
     public function __construct()
     {
-        $this->extension = new LuboControlPanelExtension();
+        //$this->extension = new LuboControlPanelExtension();
     }
 
     public function build(ContainerBuilder $container)
